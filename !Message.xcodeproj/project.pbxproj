@@ -202,18 +202,15 @@
 		764B8B341EF92A8B0063C74B /* !Message */ = {
 			isa = PBXGroup;
 			children = (
-				76CB5E031EFA79B500BC3F1C /* BaseCell.swift */,
-				76CB5DFF1EFA796900BC3F1C /* ChatCell.swift */,
-				76CB5E001EFA796900BC3F1C /* ChatCell.xib */,
-				764B8B941EF92B110063C74B /* SocketIOManager.swift */,
+				76FDCD251EFA90140083AEBC /* ViewController */,
+				76FDCD241EFA8FED0083AEBC /* CustomView */,
+				76FDCD231EFA8FDA0083AEBC /* SocketIO */,
 				764B8B351EF92A8B0063C74B /* AppDelegate.swift */,
-				764B8B371EF92A8B0063C74B /* ViewController.swift */,
 				764B8B391EF92A8B0063C74B /* Main.storyboard */,
 				764B8B3C1EF92A8B0063C74B /* Assets.xcassets */,
 				76FDCCF41EFA8BA30083AEBC /* AppIcon.appiconset */,
 				764B8B3E1EF92A8B0063C74B /* LaunchScreen.storyboard */,
 				764B8B411EF92A8B0063C74B /* Info.plist */,
-				76CB5DFD1EFA62D100BC3F1C /* chatViewController.swift */,
 			);
 			path = "!Message";
 			sourceTree = "<group>";
@@ -295,6 +292,33 @@
 				76FDCD0B1EFA8BA30083AEBC /* Icon-Small-50x50@2x.png */,
 			);
 			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		76FDCD231EFA8FDA0083AEBC /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				764B8B941EF92B110063C74B /* SocketIOManager.swift */,
+			);
+			name = SocketIO;
+			sourceTree = "<group>";
+		};
+		76FDCD241EFA8FED0083AEBC /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				76CB5E031EFA79B500BC3F1C /* BaseCell.swift */,
+				76CB5DFF1EFA796900BC3F1C /* ChatCell.swift */,
+				76CB5E001EFA796900BC3F1C /* ChatCell.xib */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		76FDCD251EFA90140083AEBC /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				764B8B371EF92A8B0063C74B /* ViewController.swift */,
+				76CB5DFD1EFA62D100BC3F1C /* chatViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
